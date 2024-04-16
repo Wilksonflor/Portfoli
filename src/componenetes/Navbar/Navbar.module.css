@@ -1,0 +1,39 @@
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 20px;
+}
+header h3,
+header a {
+  color: #fff;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+header span {
+  color: #3ca4ce;
+  font-size: 2rem;
+}
+header nav {
+  /* border: solid blue; */
+  width: 30%;
+}
+
+nav ul {
+  /* border: solid blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  list-style: none;
+}
+nav ul a {
+  color: #fff;
+  font-family: var(--font-roboto);
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+}

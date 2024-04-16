@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --color-text: #fff;
+  --color-primary: #3ca4ce;
+  --color-bg: #081227;
+  --color-secondary: #0b1933;
+  --color-dark: #091f3f;
+  --font-roboto: "Roboto";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-roboto);
+}
+body {
+  background-color: var(--color-dark);
+}
