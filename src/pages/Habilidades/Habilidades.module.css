@@ -1,0 +1,97 @@
+.containerSkills {
+  /* border: solid black; */
+}
+.containerSkills > h2{
+  font-size: 3rem;
+  margin: 30px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.skillsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+
+
+}
+
+.boxSkill {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill {
+  width: 120px;
+  /* border: solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.skill h3 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.skillImg {
+  background-color: #0b1933;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.skillImg img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+
+}
+
+/* Formação */
+.sectionFormacao {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+.cursosContainer {
+  border: none;
+  border-radius: 15px;
+  background: #19376d;
+  background: linear-gradient(90deg, #0a315e 0%, rgba(25, 55, 109, 0) 100%);
+  display: flex;
+  align-items: center;
+  margin-block: 15px;
+  gap: 10px;
+  width: 80%;
+
+}
+
+.cursosContainer img {
+  width: 200px;
+  height: 200px;
+}
+
+.cursosContainer h2 {
+  color: #fff;
+  font-weight: bold;
+  /* margin-block: 10px; */
+}
+.cursosContainer p{
+  color: #fff;
+  margin-block: 10px;
+  font-style: italic;
+}
