@@ -1,6 +1,9 @@
 .sectionProjetos {
   margin-top: 75px;
   color: #fff;
+  /* border: solid red; */
+  display: flex;
+  flex-direction: column;
 }
 
 .sectionProjetos h2 {
@@ -8,23 +11,31 @@
   font-size: 2rem;
   margin-bottom: 20px;
 }
-
-.containerCards {
+.carouselWrapper {
+  width: 100%;
+  margin: 0 auto;
+  height: 500px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  text-align: center;
   flex-wrap: wrap;
 }
 
 .boxCards {
   display: flex;
   flex-direction: column;
+  border-radius: 15px;
+
   background: linear-gradient(180deg, #020f1b 0%, #0a315e 100%);
   box-shadow: 0 16px 14px #04152d;
   padding: 18px 15px;
-  max-width: 450px;
-  height: 500px;
-  margin-block: 15px;
+  max-width: 420px;
+
+  height: 450px;
+  max-height: 500px;
+
+  margin: 15px 10px;
+  color: #fff;
 }
 
 .boxCards img {
@@ -34,13 +45,51 @@
 }
 
 .boxCards h3 {
-  font-size: 1.3rem;
+  font-size: clamp(1.3rem, 1vw, 1.4rem);
 }
 
 .boxCards p {
   width: 95%;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   margin-block: 15px;
   text-align: justify;
+}
+
+.tecnologias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.tecnologias .tags {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 4px;
+}
+
+.linksGitAndExt {
+  padding-block: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.linksGitAndExt a {
+  color: #fff;
+  width: 100px;
+
+  transition: 0.3s ease-in-out;
+}
+
+.linksGitAndExt a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 15px solid #000;
 }

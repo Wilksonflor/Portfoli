@@ -47,23 +47,29 @@ export const Sobre = () => {
         <div className={styles.contentDev}>
           <h2>Quem é Wilkson?</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ab
-            facere ullam provident magnam? Consequatur.
+            Sou um apaixonado por código, nascido em Palmares-PE e atualmente
+            estudante de Análise em Desenvolvimento de Sistemas. Passo boa parte
+            do meu tempo desenvolvendo soluções criativas e funcionais para
+            problemas complexos de software. Com habilidades sólidas em
+            desenvolvimento web e uma mentalidade ágil, estou sempre pronto para
+            encarar novos desafios e entregar resultados de alta qualidade.
           </p>
           <div className={styles.fullstack}>
             <h3>Desenvolvimento front-end</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
-              quas excepturi ad praesentium at corporis, neque perspiciatis
-              delectus provident perferendis?
+              Desenvolvo interfaces de usuário interativas e responsivas
+              utilizando tecnologias web como HTML, CSS e JavaScript. Utilizo
+              frameworks modernos como React.js para criar experiências de
+              usuário dinâmicas e atraentes.
             </p>
           </div>
           <div className={styles.fullstack}>
             <h3>Desenvolvimento back-end</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
-              quas excepturi ad praesentium at corporis, neque perspiciatis
-              delectus provident perferendis?
+              No backend, crio APIs robustas e escaláveis utilizando tecnologias
+              como Node.js e Express.js. Desenvolvo endpoints RESTful que
+              permitem a comunicação entre o front-end e o banco de dados,
+              garantindo uma integração eficiente e segura das informações.
             </p>
           </div>
         </div>
