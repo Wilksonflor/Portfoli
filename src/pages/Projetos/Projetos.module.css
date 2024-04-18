@@ -1,0 +1,46 @@
+.sectionProjetos {
+  margin-top: 75px;
+  color: #fff;
+}
+
+.sectionProjetos h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.containerCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.boxCards {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #020f1b 0%, #0a315e 100%);
+  box-shadow: 0 16px 14px #04152d;
+  padding: 18px 15px;
+  max-width: 450px;
+  height: 500px;
+  margin-block: 15px;
+}
+
+.boxCards img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.boxCards h3 {
+  font-size: 1.3rem;
+}
+
+.boxCards p {
+  width: 95%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-block: 15px;
+  text-align: justify;
+}

@@ -4,19 +4,17 @@
   justify-content: space-evenly;
   margin-top: 100px;
   flex-wrap: wrap;
-
 }
 
 .textContent {
-
   width: 48%;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 5px;
-
 }
+
 .textContent h1 {
   font-size: 5rem;
   font-family: "Roboto", sans-serif;
@@ -29,12 +27,10 @@
 }
 
 .containerDev {
-  /* border: solid red; */
   color: #fff;
-  border: solid red;
   margin-bottom: 50px;
 }
+
 .fullstack {
-  /* border: solid blue; */
   display: flex;
 }

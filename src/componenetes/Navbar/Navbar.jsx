@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import s from "./Navbar.module.css";
+
 export const Navbar = () => {
   return (
     <>
@@ -13,7 +14,7 @@ export const Navbar = () => {
         <nav>
           <ul>
             <li>
-              <a href="sobre">Sobre</a>
+              <a href="#sobre">Sobre</a>
             </li>
             <li>
               <a href="habilidades">Habilidades</a>
