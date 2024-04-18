@@ -44,8 +44,8 @@ export const Sobre = () => {
       </section>
 
       <section className={styles.containerDev}>
-        <div className={styles.contentDev}>
-          <h2>Quem é Wilkson?</h2>
+        <h2>Quem é Wilkson?</h2>
+        <div>
           <p>
             Sou um apaixonado por código, nascido em Palmares-PE e atualmente
             estudante de Análise em Desenvolvimento de Sistemas. Passo boa parte
@@ -54,24 +54,26 @@ export const Sobre = () => {
             desenvolvimento web e uma mentalidade ágil, estou sempre pronto para
             encarar novos desafios e entregar resultados de alta qualidade.
           </p>
-          <div className={styles.fullstack}>
-            <h3>Desenvolvimento front-end</h3>
-            <p>
-              Desenvolvo interfaces de usuário interativas e responsivas
-              utilizando tecnologias web como HTML, CSS e JavaScript. Utilizo
-              frameworks modernos como React.js para criar experiências de
-              usuário dinâmicas e atraentes.
-            </p>
+
+          <div>
+            <div>
+              <h3>Desenvolvimento front-end</h3>
+              <p>
+                Desenvolvo interfaces de usuário interativas e responsivas
+                utilizando tecnologias web como HTML, CSS e JavaScript. Utilizo
+                frameworks modernos como React.js para criar experiências de
+                usuário dinâmicas e atraentes.
+              </p>
+            </div>
           </div>
-          <div className={styles.fullstack}>
-            <h3>Desenvolvimento back-end</h3>
-            <p>
-              No backend, crio APIs robustas e escaláveis utilizando tecnologias
-              como Node.js e Express.js. Desenvolvo endpoints RESTful que
-              permitem a comunicação entre o front-end e o banco de dados,
-              garantindo uma integração eficiente e segura das informações.
-            </p>
-          </div>
+
+          <h3>Desenvolvimento back-end</h3>
+          <p>
+            No backend, crio APIs robustas e escaláveis utilizando tecnologias
+            como Node.js e Express.js. Desenvolvo endpoints RESTful que permitem
+            a comunicação entre o front-end e o banco de dados, garantindo uma
+            integração eficiente e segura das informações.
+          </p>
         </div>
       </section>
     </>

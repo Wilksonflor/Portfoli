@@ -22,7 +22,7 @@ export const projetosList = [
     descricao:
       "Projeto de uma cafeteria online onde os usuários podem fazer pedidos e agendar horários de entrega.",
     tecnologias: ["React", "Tailwind"],
-    urlProjeto: "https://cafeonline.netlify.app/",
+    urlProjeto: "https://cafevida.netlify.app/",
     gitHubProjeto: "https://github.com/Wilksonflor/CafeOnline",
   },
   {

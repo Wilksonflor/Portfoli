@@ -29,8 +29,13 @@
 .containerDev {
   color: #fff;
   margin-bottom: 50px;
+  border: solid red;
+ 
 }
 
-.fullstack {
-  display: flex;
+.containerDev h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-block: 15px;
 }
+
