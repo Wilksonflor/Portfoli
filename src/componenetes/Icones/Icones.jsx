@@ -6,10 +6,12 @@ import {
   FaExternalLinkAlt,
   FaCode,
   FaServer,
+  FaBars,
 } from "react-icons/fa";
 import { AiOutlineAntDesign, AiTwotoneHtml5 } from "react-icons/ai";
 import { SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
 import { IoLogoNodejs, IoLogoJavascript } from "react-icons/io";
+import { FaXmark } from "react-icons/fa6";
 
 export const getIcon = (tecnologia) => {
   switch (tecnologia) {
@@ -52,4 +54,12 @@ export const getCodeIcon = () => {
 
 export const getServericon = () => {
   return <FaServer />;
+};
+
+export const menuIcon = () => {
+  return <FaBars />;
+};
+
+export const closeMenuIcon = () => {
+  return <FaXmark />;
 };

@@ -63,7 +63,6 @@ export const Habilidades = () => {
           </div>
 
           <section className={styles.sectionFormacao}>
-            {/* <h2>Formação</h2> */}
             <div className={styles.cursosContainer}>
               <img src={nassau} alt="" />
               <div className={styles.textFormacao}>

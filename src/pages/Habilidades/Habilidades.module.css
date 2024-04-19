@@ -1,7 +1,7 @@
 .containerSkills {
   /* border: solid black; */
 }
-.containerSkills > h2{
+.containerSkills > h2 {
   font-size: 3rem;
   margin: 30px;
   text-align: center;
@@ -14,8 +14,6 @@
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
-
-
 }
 
 .boxSkill {
@@ -56,12 +54,10 @@
   width: 80px;
   height: 80px;
   object-fit: cover;
-
 }
 
 /* Formação */
 .sectionFormacao {
-
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -77,7 +73,6 @@
   margin-block: 15px;
   gap: 10px;
   width: 80%;
-
 }
 
 .cursosContainer img {
@@ -90,8 +85,42 @@
   font-weight: bold;
   /* margin-block: 10px; */
 }
-.cursosContainer p{
+.cursosContainer p {
   color: #fff;
   margin-block: 10px;
   font-style: italic;
+}
+
+/* Responsividade */
+
+@media (max-width: 420px) {
+  .containerSkills h2 {
+    font-size: 1.9rem;
+  }
+  .skillsWrapper {
+    flex-direction: column;
+  }
+  .boxSkill {
+    width: 100%;
+  }
+  .sectionFormacao {
+    width: 100%;
+
+    align-items: center;
+  }
+  .cursosContainer {
+    flex-direction: column;
+
+    width: 90%;
+  }
+  .cursosContainer img {
+    width: 80%;
+    object-fit: cover;
+  }
+  .cursosContainer h2 {
+    font-size: 1.2rem;
+  }
+  .textFormacao {
+    width: 90%;
+  }
 }
