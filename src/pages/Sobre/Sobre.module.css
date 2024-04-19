@@ -29,8 +29,6 @@
 .containerDev {
   color: #fff;
   margin-bottom: 50px;
-  border: solid red;
- 
 }
 
 .containerDev h2 {
@@ -38,4 +36,3 @@
   font-size: 2rem;
   margin-block: 15px;
 }
-
