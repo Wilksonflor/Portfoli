@@ -25,17 +25,31 @@
   display: flex;
   flex-direction: column;
   border-radius: 15px;
-
   background: linear-gradient(180deg, #020f1b 0%, #0a315e 100%);
-  box-shadow: 0 16px 14px #04152d;
+  /* box-shadow: 0 0 20px #3ca4ce;  */
   padding: 18px 15px;
   max-width: 420px;
-
   height: 450px;
   max-height: 500px;
-
   margin: 15px 10px;
   color: #fff;
+  transition: 0.3s ease;
+}
+
+.boxCards:hover {
+  box-shadow: 0 0 15px #3ca4ce;
+}
+
+.linksGitAndExt a {
+  color: #fff;
+  width: 100px;
+  transition: 0.3s ease-in-out;
+}
+
+.linksGitAndExt a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 15px solid #000;
 }
 
 .boxCards img {

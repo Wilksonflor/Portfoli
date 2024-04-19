@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import fotoPerfil from "../../assets/img/semFoto.jpg";
 import { VerticalAlignBottomOutlined } from "@ant-design/icons";
+import { getCodeIcon, getServericon } from "../../componenetes/Icones/Icones";
 import { Button } from "antd";
 import styles from "./Sobre.module.css";
 import curriculo from "../../../Desenvolvedor Front-End - Wilkson Flor Soares.pdf";
@@ -32,48 +33,62 @@ export const Sobre = () => {
       <section className={styles.perfil}>
         <div className={styles.textContent}>
           <h1>Wilkson Flor</h1>
-          <span>{cargoDigitando || "Desenvolvedor Front-End"}</span>
+          <p>{cargoDigitando || "Desenvolvedor Front-End"}</p>
           <Button type="primary" onClick={downloadCurriculo}>
             <VerticalAlignBottomOutlined />
             Download CV
           </Button>
         </div>
-        <div>
-          <img src={fotoPerfil} alt="" />
-        </div>
+        <img
+          className={styles.fotoPerfil}
+          src={fotoPerfil}
+          alt="Foto de perfil"
+        />
       </section>
 
       <section className={styles.containerDev}>
         <h2>Quem é Wilkson?</h2>
-        <div>
-          <p>
-            Sou um apaixonado por código, nascido em Palmares-PE e atualmente
-            estudante de Análise em Desenvolvimento de Sistemas. Passo boa parte
-            do meu tempo desenvolvendo soluções criativas e funcionais para
-            problemas complexos de software. Com habilidades sólidas em
-            desenvolvimento web e uma mentalidade ágil, estou sempre pronto para
-            encarar novos desafios e entregar resultados de alta qualidade.
-          </p>
-
-          <div>
-            <div>
-              <h3>Desenvolvimento front-end</h3>
-              <p>
-                Desenvolvo interfaces de usuário interativas e responsivas
-                utilizando tecnologias web como HTML, CSS e JavaScript. Utilizo
-                frameworks modernos como React.js para criar experiências de
-                usuário dinâmicas e atraentes.
-              </p>
-            </div>
+        <div className={styles.containerSobreSt}>
+          <div className={styles.textSobre}>
+            <p>
+              Sou um apaixonado por código, nascido em Palmares-PE e atualmente
+              estudante de Análise em Desenvolvimento de Sistemas. Passo boa
+              parte do meu tempo desenvolvendo soluções criativas e funcionais
+              para problemas complexos de software. Com habilidades sólidas em
+              desenvolvimento web e uma mentalidade ágil, estou sempre pronto
+              para encarar novos desafios e entregar resultados de alta
+              qualidade.
+            </p>
           </div>
 
-          <h3>Desenvolvimento back-end</h3>
-          <p>
-            No backend, crio APIs robustas e escaláveis utilizando tecnologias
-            como Node.js e Express.js. Desenvolvo endpoints RESTful que permitem
-            a comunicação entre o front-end e o banco de dados, garantindo uma
-            integração eficiente e segura das informações.
-          </p>
+          <div className={styles.containerStacks}>
+            <div className={styles.contentStack}>
+              <span>{getCodeIcon()}</span>
+              <div className={styles.textSS}>
+                <h3>Desenvolvimento front-end</h3>
+                <p>
+                  Desenvolvo interfaces de usuário interativas e responsivas
+                  utilizando tecnologias web como HTML, CSS e JavaScript.
+                  Utilizo frameworks modernos como React.js para criar
+                  experiências de usuário dinâmicas e atraentes.
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.contentStack}>
+              <span>{getServericon()}</span>
+              <div className={styles.textSS}>
+                <h3>Desenvolvimento back-end</h3>
+                <p>
+                  No backend, crio APIs robustas e escaláveis utilizando
+                  tecnologias como Node.js e Express.js. Desenvolvo endpoints
+                  RESTful que permitem a comunicação entre o front-end e o banco
+                  de dados, garantindo uma integração eficiente e segura das
+                  informações.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

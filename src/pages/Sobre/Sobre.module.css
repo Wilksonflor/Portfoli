@@ -1,3 +1,5 @@
+/* Sobre.module.css */
+
 .perfil {
   display: flex;
   align-items: center;
@@ -13,6 +15,8 @@
   flex-direction: column;
   align-items: start;
   gap: 5px;
+
+  padding: 15px 10px;
 }
 
 .textContent h1 {
@@ -21,18 +25,118 @@
   font-weight: bold;
 }
 
-.perfil img {
+.textContent p {
+  font-size: 1.3rem;
+}
+
+
+.textContent button {
+  height: 40px;
+  width: 150px;
+  margin-top: 15px;
+}
+.fotoPerfil {
   width: 150px;
   height: 150px;
 }
 
 .containerDev {
   color: #fff;
-  margin-bottom: 50px;
+  margin-block: 50px;
 }
 
 .containerDev h2 {
   text-align: center;
   font-size: 2rem;
   margin-block: 15px;
+}
+
+.containerSobreSt {
+  background-color: #091f3f;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.textSobre {
+  width: 40%;
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+.containerStacks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-block: 50px;
+  width: 50%;
+}
+
+.contentStack {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 20px;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(18, 101, 161, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  margin-block: 15px;
+}
+
+.contentStack:hover {
+  background-size: 100% 100%;
+}
+
+.containerStacks span {
+  font-size: 2rem;
+}
+
+.contentStack h3 {
+  font-size: 2rem;
+}
+
+.containerStacks p {
+  font-size: 1rem;
+  text-align: justify;
+  padding-block: 10px;
+}
+
+.textSS {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Responsividade */
+@media (max-width: 720px){
+  .perfil{
+    border: solid blue;
+    flex-direction: column;
+  }
+  .perfil .textContent{
+
+    width: 100%;
+    align-items: center;
+  }
+ 
+  .containerSobreSt{
+    flex-direction: column;
+
+}
+.textSobre{
+  width: 90%;
+  margin-top: 15px;
+  font-size: 1.3rem;
+}
+.containerStacks{
+  width: 80%;
+}
+
+
 }

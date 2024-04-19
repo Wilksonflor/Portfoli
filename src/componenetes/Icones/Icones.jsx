@@ -1,5 +1,12 @@
 import { BsBootstrap } from "react-icons/bs";
-import { FaReact, FaCss3, FaGithub, FaExternalLinkAlt  } from "react-icons/fa";
+import {
+  FaReact,
+  FaCss3,
+  FaGithub,
+  FaExternalLinkAlt,
+  FaCode,
+  FaServer,
+} from "react-icons/fa";
 import { AiOutlineAntDesign, AiTwotoneHtml5 } from "react-icons/ai";
 import { SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
 import { IoLogoNodejs, IoLogoJavascript } from "react-icons/io";
@@ -37,4 +44,12 @@ export const getGithubIcon = () => {
 
 export const getExternalLink = () => {
   return <FaExternalLinkAlt />;
+};
+
+export const getCodeIcon = () => {
+  return <FaCode />;
+};
+
+export const getServericon = () => {
+  return <FaServer />;
 };
