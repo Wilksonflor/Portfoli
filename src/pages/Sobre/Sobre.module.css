@@ -112,6 +112,13 @@
 }
 
 /* Responsividade */
+
+@media (max-width: 620px) {
+  .contentStack {
+    padding: 2px;
+  }
+}
+
 @media (max-width: 720px) {
   .perfil {
     /* border: solid blue; */

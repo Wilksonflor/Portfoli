@@ -124,3 +124,77 @@
     width: 90%;
   }
 }
+
+@media (max-width: 620px) {
+  .skillsWrapper {
+    border: solid red;
+    flex-direction: column;
+  }
+
+  .boxSkill {
+    width: 90%;
+  }
+
+  .sectionFormacao {
+    margin-top: 30px;
+    width: 90%;
+  }
+
+  .cursosContainer {
+    width: 100%;
+
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .textFormacao {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 720px) {
+  .skillsWrapper {
+    border: solid red;
+    flex-direction: column;
+  }
+
+  .boxSkill {
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .sectionFormacao {
+    margin-top: 30px;
+    width: 90%;
+  }
+
+  .cursosContainer {
+    width: 100%;
+
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .textFormacao {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1290px) {
+  .skillsWrapper {
+    flex-direction: column;
+  }
+  .boxSkill {
+    width: 100%;
+  }
+  .sectionFormacao {
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+  }
+}
