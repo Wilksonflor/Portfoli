@@ -38,13 +38,13 @@ export const projetosList = [
     titulo: "Projeto para uma conveniência local",
     imagem: conveniencia,
     descricao:
-      "Projeto em desenvolvimento para uma conveniência local com funcionalidades de atualização de pedidos, cadastro de produtos e controle de estoque.",
+      "Projeto em desenvolvimento para uma conveniência local, para pedidos, cadastro de produtos e controle de estoque.",
     tecnologias: ["NodeJs", "Express", "MongoDB"],
     urlProjeto: "https://convenienciaonline.netlify.app/",
     gitHubProjeto: "https://github.com/Wilksonflor/ConvenienciaOnline",
   },
   {
-    titulo: "Aplicação para agendamento de horários de quadras esportivas.",
+    titulo: "Aplicação para agendar horários em quadras esportivas.",
     imagem: gerenciador,
     descricao:
       "Projeto em desenvolvimento para agendar horário em quadra de futsal, Beach Tennis e vôlei",

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import s from "./Navbar.module.css";
 import { menuIcon, closeMenuIcon } from "../Icones/Icones";
+import { Logo } from "../Logo/Logo";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,9 +15,7 @@ export const Navbar = () => {
     <>
       <header className={s.header}>
         <Link to={"/"}>
-          <h3>
-            Wilkson Flor<span>.</span>
-          </h3>
+          <Logo />
         </Link>
 
         <button className={s.menuButton} onClick={toggleMenu}>
@@ -29,13 +28,13 @@ export const Navbar = () => {
               <a href="#sobre">Sobre</a>
             </li>
             <li>
-              <a href="habilidades">Habilidades</a>
+              <a href="#habilidades">Habilidades</a>
             </li>
             <li>
-              <a href="projetos">Projetos</a>
+              <a href="#projetos">Projetos</a>
             </li>
             <li>
-              <a href="">Contato</a>
+              <a href="#contato">Contato</a>
             </li>
           </ul>
         </nav>

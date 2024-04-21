@@ -12,7 +12,7 @@ import styles from "./Habilidades.module.css";
 export const Habilidades = () => {
   return (
     <>
-      <section className={styles.containerSkills}>
+      <section className={styles.containerSkills} id="habilidades" data-aos='fade-up'>
         <h2>Habilidades e formação</h2>
         <div className={styles.skillsWrapper}>
           <div className={styles.boxSkill}>

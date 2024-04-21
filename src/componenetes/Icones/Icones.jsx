@@ -7,6 +7,8 @@ import {
   FaCode,
   FaServer,
   FaBars,
+  FaInstagram,
+  FaLinkedin,
 } from "react-icons/fa";
 import { AiOutlineAntDesign, AiTwotoneHtml5 } from "react-icons/ai";
 import { SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
@@ -62,4 +64,12 @@ export const menuIcon = () => {
 
 export const closeMenuIcon = () => {
   return <FaXmark />;
+};
+
+export const getIconInsta = () => {
+  return <FaInstagram />;
+};
+
+export const getIconLkd = () => {
+  return <FaLinkedin />;
 };

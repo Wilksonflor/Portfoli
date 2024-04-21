@@ -30,7 +30,7 @@ export const Sobre = () => {
 
   return (
     <>
-      <section className={styles.perfil}>
+      <section className={styles.perfil} id="sobre" data-aos='fade-left'>
         <div className={styles.textContent}>
           <h1>Wilkson Flor</h1>
           <p>{cargoDigitando || "Desenvolvedor Front-End"}</p>
@@ -46,7 +46,7 @@ export const Sobre = () => {
         />
       </section>
 
-      <section className={styles.containerDev}>
+      <section className={styles.containerDev} data-aos='fade-right'>
         <h2>Quem é Wilkson?</h2>
         <div className={styles.containerSobreSt}>
           <div className={styles.textSobre}>

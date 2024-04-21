@@ -1,7 +1,7 @@
 .sectionProjetos {
   margin-top: 75px;
   color: #fff;
-  /* border: solid red; */
+
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +26,7 @@
   flex-direction: column;
   border-radius: 15px;
   background: linear-gradient(180deg, #020f1b 0%, #0a315e 100%);
-  /* box-shadow: 0 0 20px #3ca4ce;  */
+
   padding: 18px 15px;
   max-width: 420px;
   height: 450px;
@@ -37,7 +37,7 @@
 }
 
 .boxCards:hover {
-  box-shadow: 0 0 15px #3ca4ce;
+  box-shadow: inset 0 0 10px #3ca4ce;
 }
 
 .linksGitAndExt a {
@@ -106,4 +106,63 @@
   background-color: #fff;
   color: #000;
   border-radius: 15px solid #000;
+}
+
+@media (max-width: 420px) {
+  .boxCards {
+    max-width: 350px;
+    max-height: 420px;
+  }
+  .boxCards img {
+    margin-bottom: 4px;
+  }
+  .boxCards p {
+    margin-block: 5px;
+  }
+  .boxCards h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .tecnologias {
+    margin-top: 5px;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 720px) {
+  .boxCards {
+    max-width: 330px;
+    margin-inline: 10px;
+    padding: 15px 10px;
+  }
+  .tecnologias {
+    margin-block: 10px;
+    width: 100%;
+  }
+  .boxCards h3 {
+    font-size: 1.1rem;
+  }
+  .boxCards p {
+    font-size: 1rem;
+  }
+  .boxCards p {
+    margin-block: 4px;
+  }
+}
+
+@media (max-width: 990px) {
+  .boxCards {
+    max-width: 350px;
+    padding: 10px;
+  }
+  .boxCards h3 {
+    font-size: 1rem;
+  }
+  .tecnologias {
+    margin-block: 5px;
+  }
+  .linksGitAndExt {
+    margin-top: 10px;
+  }
 }

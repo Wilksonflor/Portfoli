@@ -9,36 +9,38 @@ import { Tag, Carousel } from "antd";
 
 export const Projetos = () => {
   return (
-    <section id="projetos" className={styles.sectionProjetos}>
+    <section id="projetos" className={styles.sectionProjetos} data-aos='fade-down'>
       <h2>Projetos</h2>
       <Carousel
         autoplay
         pauseOnHover
+        // initialSlide={4}
+        slidesToShow={4}
         dots={false}
         className={styles.carouselWrapper}
         responsive={[
           {
-            breakpoint: 2600,
+            breakpoint: 1700,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 3,
             },
           },
           {
-            breakpoint: 1200,
+            breakpoint: 1181,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 2,
             },
           },
           {
             breakpoint: 992,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 2,
             },
           },
           {
             breakpoint: 768,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
             },
           },
           {
@@ -66,6 +68,7 @@ export const Projetos = () => {
                 </Tag>
               ))}
             </div>
+
             <div className={styles.linksGitAndExt}>
               <a
                 href={projeto.urlProjeto}

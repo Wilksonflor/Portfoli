@@ -1,0 +1,67 @@
+.footer {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  width: 100%;
+  background-color: #091f3f;
+  overflow: hidden;
+  height: 200px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.navFooter {
+  display: flex;
+  align-items: center;
+}
+
+.footer ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.footer li {
+  margin-block: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  font-size: 2rem;
+}
+
+.socialIcons .iconLkd {
+  color: #0077b5;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.socialIcons .iconGH {
+  /* border: solid red; */
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.socialIcons .iconInsta {
+  display: flex;
+  align-items: center;
+  color: #833ab4;
+}

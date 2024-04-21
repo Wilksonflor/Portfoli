@@ -127,7 +127,7 @@
 
 @media (max-width: 620px) {
   .skillsWrapper {
-    border: solid red;
+    /* border: solid red; */
     flex-direction: column;
   }
 
@@ -156,7 +156,7 @@
 
 @media (max-width: 720px) {
   .skillsWrapper {
-    border: solid red;
+    /* border: solid red; */
     flex-direction: column;
   }
 
