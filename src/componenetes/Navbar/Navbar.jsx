@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
 import { useState } from "react";
 import s from "./Navbar.module.css";
 import { menuIcon, closeMenuIcon } from "../Icones/Icones";
 import { Logo } from "../Logo/Logo";
+import { Link } from "react-scroll";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,9 +14,7 @@ export const Navbar = () => {
   return (
     <>
       <header className={s.header}>
-        <Link to={"/"}>
-          <Logo />
-        </Link>
+        <Logo />
 
         <button className={s.menuButton} onClick={toggleMenu}>
           {menuOpen ? closeMenuIcon() : menuIcon()}
@@ -25,16 +23,52 @@ export const Navbar = () => {
         <nav className={`${s.nav} ${menuOpen ? s.open : ""}`}>
           <ul>
             <li>
-              <a href="#sobre">Sobre</a>
+              <Link
+                to="sobre"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={toggleMenu}
+              >
+                Sobre
+              </Link>
             </li>
             <li>
-              <a href="#habilidades">Habilidades</a>
+              <Link
+                to="habilidades"
+                spy={true}
+                smooth={true}
+                offset={-300}
+                // duration={500}
+                onClick={toggleMenu}
+              >
+                Habilidades
+              </Link>
             </li>
             <li>
-              <a href="#projetos">Projetos</a>
+              <Link
+                to="projetos"
+                spy={true}
+                smooth={true}
+                offset={-90}
+                // duration={600}
+                onClick={toggleMenu}
+              >
+                Projetos
+              </Link>
             </li>
             <li>
-              <a href="#contato">Contato</a>
+              <Link
+                to="contato"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={toggleMenu}
+              >
+                Contato
+              </Link>
             </li>
           </ul>
         </nav>

@@ -41,13 +41,10 @@ export const Footer = () => {
                 <a href="#sobre">Sobre</a>
               </li>
               <li>
-                <a href="habilidades">Habilidades</a>
+                <a href="#habilidades">Habilidades</a>
               </li>
               <li>
-                <a href="projetos">Projetos</a>
-              </li>
-              <li>
-                <a href="">Contato</a>
+                <a href="#projetos">Projetos</a>
               </li>
             </ul>
           </nav>
