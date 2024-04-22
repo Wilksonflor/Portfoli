@@ -4,7 +4,7 @@ import { VerticalAlignBottomOutlined } from "@ant-design/icons";
 import { getCodeIcon, getServericon } from "../../componenetes/Icones/Icones";
 import { Button } from "antd";
 import styles from "./Sobre.module.css";
-import curriculo from "../../../Desenvolvedor Front-End - Wilkson Flor Soares.pdf";
+import curriculo from "../../../Wilkson Flor - Desenvolvedor front-end.pdf";
 
 export const Sobre = () => {
   const [cargoDigitando, setCargoDigitando] = useState("");
