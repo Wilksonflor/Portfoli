@@ -39,7 +39,7 @@ export const projetosList = [
     imagem: conveniencia,
     descricao:
       "Projeto em desenvolvimento para uma conveniência local, para pedidos, cadastro de produtos e controle de estoque.",
-    tecnologias: ["NodeJs", "Express", "MongoDB"],
+    tecnologias: ["React","NodeJs", "Express", "MongoDB"],
     urlProjeto: "https://convenienciaonline.netlify.app/",
     gitHubProjeto: "https://github.com/Wilksonflor/ConvenienciaOnline",
   },
@@ -57,7 +57,7 @@ export const projetosList = [
     imagem: alarme,
     descricao:
       "Aplicação para simular um alarme de vários dispositivos onde eu posso filtrar por dispositivo e nível de alarme",
-    tecnologias: ["NodeJs", "Express", "MongoDB"],
+    tecnologias: ["NodeJs", "Express", "MongoDB", "React"],
     urlProjeto: "https://convenienciaonline.netlify.app/",
     gitHubProjeto: "https://github.com/Wilksonflor/AlarmBionic",
   },
