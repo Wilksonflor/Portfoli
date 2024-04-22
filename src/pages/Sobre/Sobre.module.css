@@ -49,7 +49,10 @@
   font-size: 2rem;
   margin-block: 15px;
 }
-
+.cargo {
+  /* border: solid red; */
+  color: #ffff00;
+}
 .containerSobreSt {
   background-color: #091f3f;
   display: flex;
@@ -98,6 +101,7 @@
 
 .contentStack h3 {
   font-size: 2rem;
+  color: #3ca4ce;
 }
 
 .containerStacks p {

@@ -48,10 +48,21 @@
   font-size: 1.4rem;
   font-weight: bold;
   transition: 0.3s ease-in-out;
+  position: relative;
 }
 
-.nav ul a:hover {
-  opacity: 0.8;
+.nav a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #3ca4ce;
+  transition: .3s ease-in-out;
+}
+.nav a:hover::after {
+  width: 100%;
 }
 
 /* Responsividade */

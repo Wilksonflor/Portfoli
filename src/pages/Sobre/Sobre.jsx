@@ -30,10 +30,12 @@ export const Sobre = () => {
 
   return (
     <>
-      <section className={styles.perfil} id="sobre" data-aos='fade-left'>
+      <section className={styles.perfil} id="sobre" data-aos="fade-left">
         <div className={styles.textContent}>
           <h1>Wilkson Flor</h1>
-          <p>{cargoDigitando || "Desenvolvedor Front-End"}</p>
+          <p className={styles.cargo}>
+            {cargoDigitando || "Desenvolvedor Front-End"}
+          </p>
           <Button type="primary" onClick={downloadCurriculo}>
             <VerticalAlignBottomOutlined />
             Download CV
@@ -46,7 +48,7 @@ export const Sobre = () => {
         />
       </section>
 
-      <section className={styles.containerDev} data-aos='fade-right'>
+      <section className={styles.containerDev} data-aos="fade-right">
         <h2>Quem é Wilkson?</h2>
         <div className={styles.containerSobreSt}>
           <div className={styles.textSobre}>
@@ -65,7 +67,7 @@ export const Sobre = () => {
             <div className={styles.contentStack}>
               <span>{getCodeIcon()}</span>
               <div className={styles.textSS}>
-                <h3>Desenvolvimento front-end</h3>
+                <h3>Desenvolvedor Front-end</h3>
                 <p>
                   Desenvolvo interfaces de usuário interativas e responsivas
                   utilizando tecnologias web como HTML, CSS e JavaScript.
@@ -78,7 +80,7 @@ export const Sobre = () => {
             <div className={styles.contentStack}>
               <span>{getServericon()}</span>
               <div className={styles.textSS}>
-                <h3>Desenvolvimento back-end</h3>
+                <h3>Desenvolvedor Back-end</h3>
                 <p>
                   No backend, crio APIs robustas e escaláveis utilizando
                   tecnologias como Node.js e Express.js. Desenvolvo endpoints
