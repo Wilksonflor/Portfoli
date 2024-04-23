@@ -21,7 +21,6 @@
 
 .textContent h1 {
   font-size: 5rem;
-
 }
 
 .textContent p {
@@ -38,6 +37,9 @@
   width: 100%;
   max-height: 350px;
   object-fit: cover;
+  border-radius: 20px;
+  border: 0.3px solid #fff;
+
 }
 
 .containerDev {
