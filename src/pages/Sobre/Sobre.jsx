@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import fotoPerfil from "../../assets/img/semFoto.jpg";
+import fotoPerfil from "../../assets/img/wilkson1.png";
 import { VerticalAlignBottomOutlined } from "@ant-design/icons";
 import { getCodeIcon, getServericon } from "../../componenetes/Icones/Icones";
 import { Button } from "antd";
@@ -41,11 +41,13 @@ export const Sobre = () => {
             Download CV
           </Button>
         </div>
-        <img
-          className={styles.fotoPerfil}
-          src={fotoPerfil}
-          alt="Foto de perfil"
-        />
+        <div className={styles.fotoPerfil}>
+          <img
+            
+            src={fotoPerfil}
+            alt="Foto de perfil"
+          />
+        </div>
       </section>
 
       <section className={styles.containerDev} data-aos="fade-right">
