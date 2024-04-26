@@ -9,6 +9,7 @@ import nassau from "../../assets/img/formação/nassau.png";
 import vnw from "../../assets/img/formação/vnw.png";
 import styles from "./Habilidades.module.css";
 
+
 export const Habilidades = () => {
   return (
     <>

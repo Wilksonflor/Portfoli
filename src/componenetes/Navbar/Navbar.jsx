@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import s from "./Navbar.module.css";
 import { menuIcon, closeMenuIcon } from "../Icones/Icones";
 import { Logo } from "../Logo/Logo";
@@ -6,14 +6,31 @@ import { Link } from "react-scroll";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>
-      <header className={s.header}>
+      <header className={`${s.header} ${isScrolled ? s.scroll : ""}`}>
         <Logo />
 
         <button className={s.menuButton} onClick={toggleMenu}>
