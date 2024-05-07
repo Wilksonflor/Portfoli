@@ -9,11 +9,14 @@ import nassau from "../../assets/img/formação/nassau.png";
 import vnw from "../../assets/img/formação/vnw.png";
 import styles from "./Habilidades.module.css";
 
-
 export const Habilidades = () => {
   return (
     <>
-      <section className={styles.containerSkills} id="habilidades" data-aos='fade-up'>
+      <section
+        className={styles.containerSkills}
+        id="habilidades"
+        data-aos="fade-up"
+      >
         <h2>Habilidades e formação</h2>
         <div className={styles.skillsWrapper}>
           <div className={styles.boxSkill}>
@@ -77,7 +80,7 @@ export const Habilidades = () => {
               <div className={styles.textFormacao}>
                 <h2>Desenvolvimento Front-end</h2>
                 <p>Vai na Web</p>
-                <p>Setembro, 2023 - Presente</p>
+                <p>Setembro, 2023 - Maio, 2024</p>
               </div>
             </div>
           </section>
