@@ -4,6 +4,7 @@ import conveniencia from "../../assets/img/projetos/conveniencia.png";
 import residencial from "../../assets/img/projetos/residencial.png";
 import gerenciador from "../../assets/img/projetos/gerenciador.png";
 import alarme from "../../assets/img/projetos/alarme.png";
+import flavioBarros from "../../assets/img/projetos/SiteFlavio.png";
 
 export const projetosList = [
   {
@@ -11,7 +12,7 @@ export const projetosList = [
     imagem: jordan,
     descricao:
       "Projeto baseado no layout da comunidade codelândia, com melhorias como simulação do carrinho, adição de produtos e animação do carro.",
-    tecnologias: ["React", "Antd"],
+    tecnologias: ["React", "A"],
     urlProjeto: "https://shoesjordan.netlify.app/",
     gitHubProjeto:
       "https://github.com/Wilksonflor/JordanNike/tree/principal/wilksonFlor",
@@ -60,5 +61,14 @@ export const projetosList = [
     tecnologias: ["React", "NodeJs", "Express", "MongoDB"],
     urlProjeto: "https://convenienciaonline.netlify.app/",
     gitHubProjeto: "https://github.com/Wilksonflor/AlarmBionic",
+  },
+  {
+    titulo: "Site para advogado",
+    imagem: flavioBarros,
+    descricao:
+      "Site para um cliente real, onde as imagens e logo são ilustrativas",
+    tecnologias: ["React", "Antd"],
+    urlProjeto: "https://flaviobarrosadv.netlify.app/",
+    gitHubProjeto: "https://github.com/Wilksonflor/flavioBarros",
   },
 ];

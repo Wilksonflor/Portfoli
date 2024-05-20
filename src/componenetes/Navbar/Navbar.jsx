@@ -11,6 +11,7 @@ export const Navbar = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
