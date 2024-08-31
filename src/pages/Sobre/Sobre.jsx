@@ -4,7 +4,7 @@ import { VerticalAlignBottomOutlined } from "@ant-design/icons";
 import { getCodeIcon, getServericon } from "../../componenetes/Icones/Icones";
 import { Button } from "antd";
 import styles from "./Sobre.module.css";
-import curriculo from "../../../Wilkson Flor - Desenvolvedor front-end.pdf";
+import curriculo from "../../../Wilkson Flor Soares.pdf";
 
 export const Sobre = () => {
   const [cargoDigitando, setCargoDigitando] = useState("");
@@ -42,11 +42,7 @@ export const Sobre = () => {
           </Button>
         </div>
         <div className={styles.fotoPerfil}>
-          <img
-            
-            src={fotoPerfil}
-            alt="Foto de perfil"
-          />
+          <img src={fotoPerfil} alt="Foto de perfil" />
         </div>
       </section>
 
