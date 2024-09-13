@@ -5,6 +5,7 @@ import docker from "../../assets/img/linguagens/docker.png";
 import css from "../../assets/img/linguagens/css3.png";
 import html from "../../assets/img/linguagens/html.png";
 import mongo from "../../assets/img/linguagens/mongo.png";
+import typescript from "../../assets/img/linguagens/Typescript-01.png";
 import nassau from "../../assets/img/formação/nassau.png";
 import vnw from "../../assets/img/formação/vnw.png";
 import styles from "./Habilidades.module.css";
@@ -46,12 +47,12 @@ export const Habilidades = () => {
               </div>
               <h3>NodeJs</h3>
             </div>
-            <div className={styles.skill}>
+            {/* <div className={styles.skill}>
               <div className={styles.skillImg}>
                 <img src={sql} alt="" />
               </div>
               <h3>MySql</h3>
-            </div>
+            </div> */}
             <div className={styles.skill}>
               <div className={styles.skillImg}>
                 <img src={docker} alt="" />
@@ -63,6 +64,12 @@ export const Habilidades = () => {
                 <img src={mongo} alt="" />
               </div>
               <h3>MongoDB</h3>
+            </div>
+            <div className={styles.skill}>
+              <div className={styles.skillImg}>
+                <img src={typescript} alt="" />
+              </div>
+              <h3>TypeScript</h3>
             </div>
           </div>
 

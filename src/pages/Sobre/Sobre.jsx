@@ -51,13 +51,12 @@ export const Sobre = () => {
         <div className={styles.containerSobreSt}>
           <div className={styles.textSobre}>
             <p>
-              Sou um apaixonado por código, nascido em Palmares-PE e atualmente
-              estudante de Análise em Desenvolvimento de Sistemas. Passo boa
-              parte do meu tempo desenvolvendo soluções criativas e funcionais
-              para problemas complexos de software. Com habilidades sólidas em
-              desenvolvimento web e uma mentalidade ágil, estou sempre pronto
-              para encarar novos desafios e entregar resultados de alta
-              qualidade.
+              Sou apaixonado por tecnologia, nascido em Palmares-PE e atualmente
+              estudante de Análise e Desenvolvimento de Sistemas. Dedico meu
+              tempo à criação de soluções criativas e eficientes para desafios
+              complexos de software. Com sólida experiência em desenvolvimento
+              web e uma mentalidade ágil, estou sempre em busca de novos
+              desafios, focado em entregar resultados de alta qualidade.
             </p>
           </div>
 

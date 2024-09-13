@@ -65,8 +65,8 @@
 
 .textSobre {
   width: 40%;
-  font-size: 1.4rem;
-  text-align: justify;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  /* text-align: justify; */
 }
 
 .containerStacks {

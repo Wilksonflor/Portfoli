@@ -11,7 +11,13 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { AiOutlineAntDesign, AiTwotoneHtml5 } from "react-icons/ai";
-import { SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiMongodb,
+  SiExpress,
+  SiTypescript,
+  SiStyledcomponents,
+} from "react-icons/si";
 import { IoLogoNodejs, IoLogoJavascript } from "react-icons/io";
 import { FaXmark } from "react-icons/fa6";
 
@@ -37,6 +43,10 @@ export const getIcon = (tecnologia) => {
       return <SiMongodb />;
     case "Express":
       return <SiExpress />;
+    case "TypeScript":
+      return <SiTypescript />;
+    case "Styled-Component":
+      return <SiStyledcomponents />;
     default:
       return null;
   }
